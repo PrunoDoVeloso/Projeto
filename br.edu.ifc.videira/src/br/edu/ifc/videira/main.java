@@ -36,6 +36,7 @@ public static void main(String[] args){
 					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
 					compras.add(unid+" Sandália(s)");	
 					}
+				/*teste*/
 		}
 }
 }
