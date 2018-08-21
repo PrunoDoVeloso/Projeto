@@ -36,7 +36,27 @@ public static void main(String[] args){
 					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
 					compras.add(unid+" Sandália(s)");	
 					}
-				/*teste*/
+				
+			}else if(op==2){
+					op2 = Integer.parseInt(JOptionPane.showInputDialog("1-Sapato = 180,00R$\n"
+					+ "2- Chinelo = 10,00R$\n"
+					+ "3- Tênis = 80,00R$\n"
+					+ "4- Sapatenis = 70,00R$\n"
+					+ "5- Sandália = 60,00R$\n"));
+			if(op2==1) {
+					vendas.add("Sapato");				
+			}else if(op2==2){
+					vendas.add("Chinelo");	
+			}else if(op2==3){
+					vendas.add("Tênis");	
+			}else if{
+					vendas.add("Sapatenis");	
+			}else{
+					vendas.add("Sandália");	
+	}
+				
+				
+				
 		}
 }
 }
