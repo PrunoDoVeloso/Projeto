@@ -18,6 +18,24 @@ public static void main(String[] args){
 					+ "4 - Consultar compras\n"
 					+ "5 - Consultar vendas\n"
 					+ "6 - Sair\n"));
+			
+			
+			if(op2==1) {
+				unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+				compras.add(unid+" Sapato(s)");
+			}else if(op2==2){
+				unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+				compras.add(unid+" Chinelo(s)");
+			}else if(op2==3){
+				unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+				compras.add(unid+" Tênis(s)");
+			}else if{
+				unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+				compras.add(unid+" Sapatênis(s)");	
+				}}else{
+					unid = Integer.parseInt(JOptionPane.showInputDialog("Quantidade: \n"));
+					compras.add(unid+" Sandália(s)");	
+					}
 		}
 }
 }
