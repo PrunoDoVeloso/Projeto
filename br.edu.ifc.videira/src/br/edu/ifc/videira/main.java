@@ -55,7 +55,21 @@ public static void main(String[] args){
 					vendas.add("Sandália");	
 	}
 				
-				
+			}else if(op==3){
+				JOptionPane.showMessageDialog(null,"1- Sapato = 200,00R$\n"
+						+ "2- Chinelo = 15,00R$\n"
+						+ "3- Tênis = 100,00R$\n"
+						+ "4- Sapatenis = 90,00R$\n"
+						+ "5- Sandália = 80,00R$\n");
+		}else if(op==4) {
+			JOptionPane.showMessageDialog(null, "Vendas: \n"
+					+ "" + compras);	
+		}else if(op==5){
+			JOptionPane.showMessageDialog(null, "Compras: \n"
+					+ "" + vendas);
+		}else{
+			break;
+		}
 				
 		}
 }
